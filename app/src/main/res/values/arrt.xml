@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <declare-styleable name="PercentageRing">
+            <attr name="radius" format="integer"/>
+            <attr name="circleBackground" format="color"/>
+            <attr name="ringColor" format="color"/>
+            <attr name="textColor" format = "color"/>
+
+        </declare-styleable>
+
+        <declare-styleable name="myMagicProgress">
+            <attr name="circleProgressRadus" format="dimension"/>
+            <attr name="horizonalProgressHeight" format="dimension"/>
+            <attr name="textProgressSize" format="dimension"/>
+            <attr name="colorProgress" format="reference|color"/>
+            <attr name="colorSecondProgress" format="reference|color"/>
+        </declare-styleable>
+
+        <declare-styleable name="CircleImageView">
+             <attr name="border_width" format="dimension" />
+             <attr name="border_color" format="color" />
+        </declare-styleable>
+
+
+    <declare-styleable name="SwipeMenuView">
+        <attr name="swipeEnable" format="boolean"/>
+        <attr name="ios" format="boolean"/>
+        <attr name="leftSwipe" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CirclePercentView">
+        <attr name="radiuss" format="integer"/><!--半径-->
+        <attr name="stripeWidth" format="integer"/><!--色带宽度-->
+        <attr name="percent" format="integer"/><!--百分比 最大值为100-->
+        <attr name="smallColor" format="color"/><!--小圆颜色-->
+        <attr name="bigColor" format="color"/> <!--外圈颜色-->
+        <attr name="centerTextSize" format="dimension"/><!--中间字体颜色-->
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+        <!--<declare-styleable name="MyProgress">-->
+            <!--<attr name="bsb_min" format="float|reference"/> &lt;!&ndash;min < max, default: 0.0f&ndash;&gt;-->
+            <!--<attr name="bsb_max" format="float|reference"/> &lt;!&ndash;min < max, default: 100.0f&ndash;&gt;-->
+            <!--<attr name="bsb_progress" format="float|reference"/> &lt;!&ndash;real time progress value, default: min&ndash;&gt;-->
+            <!--<attr name="bsb_is_float_type" format="boolean"/> &lt;!&ndash;support for float type&ndash;&gt;-->
+            <!--<attr name="bsb_track_size" format="dimension|reference"/> &lt;!&ndash;height of right-track(on the right of thumb), default: 2dp&ndash;&gt;-->
+            <!--&lt;!&ndash;height of left-track(on the left of thumb), default: 2dp higher than right-track's height&ndash;&gt;-->
+            <!--<attr name="bsb_second_track_size" format="dimension|reference"/>-->
+            <!--<attr name="bsb_thumb_radius" format="dimension|reference"/> &lt;!&ndash;radius of thumb, default: 2dp higher than left-track's height&ndash;&gt;nce"/>-->
+            <!--&lt;!&ndash;radius of thumb when be dragging, default: 2 times of left-track's height&ndash;&gt;-->
+            <!--<attr name="bsb_thumb_radius_on_dragging" format="dimension|reference"/>-->
+            <!--<attr name="bsb_track_color" format="color|reference"/> &lt;!&ndash;color of right-track, default: R.color.colorPrimary&ndash;&gt;-->
+            <!--<attr name="bsb_second_track_color" format="color|reference"/> &lt;!&ndash;color of left-track, default: R.color.colorAccent&ndash;&gt;-->
+            <!--<attr name="bsb_thumb_color" format="color|reference"/> &lt;!&ndash;color of thumb, default: same as left-track's color&ndash;&gt;-->
+            <!--<attr name="bsb_section_count" format="integer|reference"/> &lt;!&ndash;shares of whole progress(max - min), default: 10&ndash;&gt;-->
+            <!--<attr name="bsb_show_section_mark" format="boolean"/> &lt;!&ndash;show demarcation points or not, default: false&ndash;&gt;-->
+            <!--<attr name="bsb_auto_adjust_section_mark" format="boolean"/> &lt;!&ndash;auto scroll to the nearest section_mark or not, default: false&ndash;&gt;-->
+            <!--<attr name="bsb_show_section_text" format="boolean"/> &lt;!&ndash;show section-text or not, default: false&ndash;&gt;-->
+            <!--<attr name="bsb_section_text_size" format="dimension|reference"/> &lt;!&ndash;text size of section-text, default: 14sp&ndash;&gt;-->
+            <!--<attr name="bsb_section_text_color" format="color|reference"/> &lt;!&ndash;text color of section-text, default: same as right-track's color&ndash;&gt;-->
+            <!--&lt;!&ndash;text position of section-text relative to track, sides, bottom_sides, below_section_mark, default: sides&ndash;&gt;-->
+            <!--<attr name="bsb_section_text_position">-->
+                <!--<enum name="sides" value="0"/>-->
+                <!--<enum name="bottom_sides" value="1"/>-->
+                <!--<enum name="below_section_mark" value="2"/>-->
+            <!--</attr>-->
+            <!--<attr name="bsb_section_text_interval" format="integer"/> &lt;!&ndash;the interval of two section-text, default: 1&ndash;&gt;-->
+            <!--<attr name="bsb_show_thumb_text" format="boolean"/> &lt;!&ndash;show real time progress-text under thumb or not, default: false&ndash;&gt;-->
+            <!--<attr name="bsb_thumb_text_size" format="dimension|reference"/> &lt;!&ndash;text size of progress-text, default: 14sp&ndash;&gt;-->
+            <!--<attr name="bsb_thumb_text_color" format="color|reference"/> &lt;!&ndash;text color of progress-text, default: same as left-track's color&ndash;&gt;-->
+            <!--<attr name="bsb_show_progress_in_float" format="boolean"/> &lt;!&ndash;show bubble-progress in float or not, default: false&ndash;&gt;-->
+            <!--<attr name="bsb_touch_to_seek" format="boolean"/> &lt;!&ndash;touch anywhere on track to quickly seek, default: false&ndash;&gt;-->
+            <!--<attr name="bsb_seek_by_section" format="boolean"/> &lt;!&ndash;seek by section, the progress may not be linear, default: false&ndash;&gt;-->
+            <!--<attr name="bsb_bubble_color" format="color|reference"/> &lt;!&ndash;color of bubble, default: same as left-track's color&ndash;&gt;-->
+
+        <!--</declare-styleable>-->
+</resources>

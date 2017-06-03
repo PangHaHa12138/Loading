@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.panghaha.it.loading">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/meinv1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Loading1"/>
+        <activity android:name=".Loading2"/>
+        <activity android:name=".Loading3"/>
+        <activity android:name=".Loading4"/>
+        <activity android:name=".Loading5"/>
+        <activity android:name=".Loading6"/>
+        <activity android:name=".Loading7"/>
+        <activity android:name=".Loading8"/>
+        <activity android:name=".Loading9"/>
+        <activity android:name=".Loading10"/>
+        <activity android:name=".Loading11"/>
+        <activity android:name=".Loading12"/>
+        <activity android:name=".Loading13"/>
+        <activity android:name=".Loading14"/>
+        <activity android:name=".Loading15"/>
+        <activity android:name=".Loading16"/>
+        <activity android:name=".Loading17"/>
+        <activity android:name=".Loading18"/>
+        <activity android:name=".Loading19"/>
+        <activity android:name=".Loading20"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myMagicProgress="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:background="#14acae"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.panghaha.it.loading.View.MyProgress
+            android:id="@+id/myprogress"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            myMagicProgress:circleProgressRadus="60dp"
+            myMagicProgress:horizonalProgressHeight="10dp"
+            myMagicProgress:textProgressSize="14sp"
+            myMagicProgress:colorProgress="#fd9112"
+            myMagicProgress:colorSecondProgress="#1592ff"
+            />
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/btnOK"
+        android:onClick="onClick"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        />
+    <EditText
+        android:id="@+id/et_progress"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:layout_toLeftOf="@id/btnOK"
+        android:hint="输入进度"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/numjd"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="当前进度：0"
+        android:textColor="#FF9966"
+        android:textSize="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SeekBarIndicated">
+        <attr name="seekbar_marginLeft" format="dimension" />
+        <attr name="seekbar_marginTop" format="dimension" />
+        <attr name="seekbar_marginRight" format="dimension" />
+        <attr name="seekbar_marginBottom" format="dimension" />
+        <attr name="seekbar_min" format="integer" />
+        <attr name="seekbar_max" format="integer" />
+        <attr name="seekbar_thumb" format="reference" />
+        <attr name="seekbar_progressDrawable" format="reference" />
+        <attr name="seekbar_sideMarks" format="boolean" />
+        <attr name="indicator_src" format="reference" />
+        <attr name="indicator_paddingLeft" format="dimension" />
+        <attr name="indicator_paddingTop" format="dimension" />
+        <attr name="indicator_paddingRight" format="dimension" />
+        <attr name="indicator_paddingBottom" format="dimension" />
+        <attr name="indicator_text" format="reference" />
+        <attr name="indicator_textStyle" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+        <attr name="indicator_textColor" format="color" />
+        <attr name="indicator_textCenterHorizontal" format="boolean" />
+        <attr name="indicator_textCenterVertical" format="boolean" />
+        <attr name="indicator_textMarginLeft" format="dimension" />
+        <attr name="indicator_textMarginTop" format="dimension" />
+        <attr name="indicator_textMarginRight" format="dimension" />
+        <attr name="indicator_textMarginBottom" format="dimension" />
+    </declare-styleable>
+
+</resources>

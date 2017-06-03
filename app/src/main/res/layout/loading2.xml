@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#93b3d7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="seekbar进度条\n在onStopTrackingTouch方法里修改\n//通过修改这里显示隐藏滑动后的进度数\nmWrapperIndicator.setVisibility\n(View.VISIBLE);"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <com.mylibrary.SeekBarIndicated
+            android:id="@+id/mSeekBarIndicated"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="340dp"
+            android:layout_height="match_parent"
+            app:indicator_paddingBottom="2dp"
+            app:seekbar_marginBottom="10dp"
+            app:indicator_textMarginTop="8dp"
+            app:seekbar_progressDrawable="@drawable/myprogressbar"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/numjd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="当前进度：0"
+        android:textColor="#FF9966"
+        android:textSize="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

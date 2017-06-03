@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--solid表示远的填充色，stroke则代表远的边框线，
+    所以两者结合可以实现带边缘的圆，当然也可以直接加上size控制高宽，-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape= "oval"
+    android:useLevel= "false"
+    >
+
+    <!--<solid android:color= "@android:color/transparent" />-->
+
+    <stroke
+        android:width= "1dp"
+        android:color= "#295775" />
+    <size android:height="30dp"
+          android:width="30dp"/>
+
+</shape>

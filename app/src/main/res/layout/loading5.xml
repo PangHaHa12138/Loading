@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:text="气泡进度条2\nDiscreteSeekBar\n气泡出现消失有动画"
+        android:textColor="#00c3e8"
+        android:textSize="35sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+<RelativeLayout
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+        android:id="@+id/disseebar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:dsb_min="0"
+        app:dsb_max="100"
+        app:dsb_rippleColor="#3a7eec"
+        app:dsb_indicatorColor="#3a7eec"
+        />
+
+</RelativeLayout>
+
+    <TextView
+        android:id="@+id/numjd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="当前进度：0"
+        android:textColor="#FF9966"
+        android:textSize="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
