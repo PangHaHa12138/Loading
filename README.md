@@ -6,8 +6,6 @@ a Android Loading project
 ###
 ![image](https://github.com/PangHaHa12138/Loading/blob/master/screenshots/lv2.png)
 ###
-![image](https://github.com/PangHaHa12138/Loading/blob/master/screenshots/lv1.png)
-###
 ![image](https://github.com/PangHaHa12138/Loading/blob/master/screenshots/seekbar.png)
 ###
 ![image](https://github.com/PangHaHa12138/Loading/blob/master/screenshots/xuanku1.png)
